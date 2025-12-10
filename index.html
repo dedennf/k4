@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoTrack - Monitoring Sampah Ilegal</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css">
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-left">
+        <img src="img/logo-upi.png" class="logo-img" alt="">
+        <div class="brand">EcoTrack: Monitoring Area Pembuangan Sampah Ilegal</div>
+    </div>
+
+ <nav class="nav-right">
+    <a href="detail.html">Detail</a>
+    <!-- Menu baru: langsung ke tab Unduh di halaman detail -->
+    <a href="data/">Pusat Unduh</a>
+    <a href="credit.html">Tim</a>
+</nav>
+</header>
+
+<div class="app">
+    <aside class="sidebar">
+        <div class="card">
+  <label class="layer-item">
+    <span class="legend-dot legal-dot"></span>
+    <input type="checkbox" id="layer-legal" checked>
+    Tempat Legal
+  </label>
+
+  <label class="layer-item">
+    <span class="legend-dot ilegal-dot"></span>
+    <input type="checkbox" id="layer-ilegal" checked>
+    Tempat Ilegal
+  </label>
+  <!-- Batas Kecamatan -->
+  <label class="layer-item">
+    <span class="legend-box kec-dot"></span>
+    <input type="checkbox" id="layer-kecamatan"checked>
+    Batas Kecamatan
+  </label>
+</label>
+</div>
+
+        <div class="card">
+            <h3>Basemap</h3>
+            <label><input type="radio" name="basemap" value="osm" checked> OSM</label>
+            <label><input type="radio" name="basemap" value="esri"> Esri Satelit</label>
+            <label><input type="radio" name="basemap" value="carto"> Carto</label>
+        </div>
+
+        <div class="card">
+            <h3>Filter Kecamatan</h3>
+            <select id="filter-kecamatan"><option value="">Semua Kecamatan</option></select>
+            <button id="btn-reset" onclick="location.reload()">Reset</button>
+        </div>
+
+        <div class="card">
+            <h3>Statistik Legal</h3>
+            <div id="stats-legal"></div>
+            <h3 style="margin-top:14px;">Statistik Ilegal</h3>
+            <div id="stats-ilegal"></div>
+        </div>
+
+        <div class="card">
+            <h3>Routing</h3>
+            <button id="btn-lacak">Arahkan lokasi</button>
+            <button id="btn-hapus-rute">Hapus Rute</button>
+        </div>
+    </aside>
+
+    <main id="map"></main>
+</div>
+
+<script>
+document.getElementById("toggle-sidebar").onclick = () => {
+    document.querySelector(".sidebar").classList.toggle("open");
+};
+</script>
+
+<script src="js/map.js"></script>
+
+  <div class="app"></div>
+
+  <!-- ZOOM FOTO UNTUK POPUP PETA -->
+  <div id="zoomModalMap" class="zoom-modal-map">
+    <span class="zoom-close-map">&times;</span>
+    <img id="zoomImgMap" class="zoom-modal-content-map">
+  </div>
+
+  <!-- letakkan SETELAH modal -->
+  <script src="js/map.js"></script>
+
+<!-- ZOOM FOTO UNTUK POPUP PETA -->
+<div id="zoomModalMap" class="zoom-modal-map">
+  <span class="zoom-close-map">&times;</span>
+  <img id="zoomImgMap" class="zoom-modal-content-map">
+</div>
+</body>
+</html>

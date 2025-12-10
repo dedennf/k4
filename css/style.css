@@ -1,0 +1,689 @@
+/* RESET */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* ================================
+   NAVBAR
+   ================================ */
+.navbar {
+    background:#0f8a3b;
+    color:white;
+    padding:18px 24px;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-left {
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.logo-img {
+    height:45px;
+}
+
+.brand {
+    font-size:22px;
+    font-weight:700;
+}
+
+.nav-right a {
+    color:white;
+    font-weight:bold;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+/* Toggle button */
+.toggle-btn {
+    background:#ffffff33;
+    padding:8px 14px;
+    border:none;
+    color:white;
+    font-size:20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* ================================
+   INDEX PAGE LAYOUT
+   ================================ */
+.app {
+    display:flex;
+    height:calc(100% - 80px);
+}
+
+.sidebar {
+    width:300px;
+    background:white;
+    padding:20px;
+    border-right:1px solid #e5e7eb;
+    overflow-y:auto;
+    transition:0.3s ease-in-out;
+}
+
+/* Card */
+.card {
+    background:#ffffff;
+    border-radius:14px;
+    padding:18px 20px;
+    margin-bottom:18px;
+    border:1px solid #e2e8f0;
+    box-shadow:0 3px 8px rgba(0,0,0,0.05);
+    transition:0.2s;
+}
+
+.card:hover {
+    box-shadow:0 5px 12px rgba(0,0,0,0.10);
+}
+
+.card h3 {
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:14px;
+    color:#0f172a;
+}
+
+/* Checkbox & Radio */
+.checkbox, .radio {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:6px 0;
+    font-size:15px;
+    cursor:pointer;
+    color:#334155;
+}
+
+.checkbox input[type="checkbox"],
+.radio input[type="radio"] {
+    width:18px;
+    height:18px;
+    accent-color:#16a34a;
+    cursor:pointer;
+}
+
+/* Select */
+.card select {
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #cbd5e1;
+    font-size:15px;
+    background:#f8fafc;
+    cursor:pointer;
+}
+
+.card select:hover {
+    background:#f1f5f9;
+    border-color:#94a3b8;
+}
+
+/* Button */
+.card button {
+    width:100%;
+    padding:10px;
+    background:#0ea5e9;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.card button:hover {
+    background:#0284c7;
+}
+
+/* Statistik row */
+.stats-row {
+    display:flex;
+    justify-content:space-between;
+    background:#f8fafc;
+    padding:8px 10px;
+    margin:5px 0;
+    border-radius:10px;
+    font-size:15px;
+    border:1px solid #e2e8f0;
+    color:#1e293b;
+}
+
+.stats-row:nth-child(even) {
+    background:#eef2f7;
+}
+
+/* Map index */
+#map {
+    height:100%;
+    flex:1;
+    background:#e5e7eb;
+}
+
+/* ================================
+   MOBILE INDEX SIDEBAR
+   ================================ */
+@media(max-width:900px){
+    .sidebar {
+        position:absolute;
+        top:80px;
+        left:0;
+        height:calc(100% - 80px);
+        transform:translateX(-110%);
+        box-shadow:4px 0 10px rgba(0,0,0,0.3);
+        z-index:1500;
+    }
+    .sidebar.open {
+        transform:translateX(0);
+    }
+}
+
+/* ================================
+   TAB SYSTEM (DETAIL PAGE)
+   ================================ */
+.tabs {
+    display:flex;
+    gap:6px;
+    margin:10px 0;
+}
+
+.tab-btn {
+    padding:8px 14px;
+    background:#f1f5f9;
+    border:1px solid #d1d5db;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+}
+
+.tab-btn.active {
+    background:#2563eb;
+    color:white;
+    border-color:#1d4ed8;
+}
+
+.tab-content {
+    display:none;
+}
+
+.tab-content.active {
+    display:block;
+    margin-top:15px;
+}
+
+/* ================================
+   DETAIL PAGE LAYOUT MODERN
+   ================================ */
+.detail-container {
+    display:flex;
+    height:calc(100vh - 80px);
+    width:100%;
+    overflow:hidden;
+}
+
+.detail-sidebar {
+    width:280px;
+    background:white;
+    border-right:1px solid #e5e7eb;
+    padding:20px;
+    overflow-y:auto;
+}
+
+.detail-content {
+    flex:1;
+    background:#f8fafc;
+    overflow-y:auto;
+    padding:20px;
+}
+
+#map-detail {
+    width:100%;
+    height:400px;
+    border-radius:12px;
+    border:1px solid #e2e8f0;
+    margin-bottom:20px;
+}
+
+/* Deskripsi, Foto, Metadata container */
+#deskripsi,
+#galeri,
+#meta-table {
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    border:1px solid #e2e8f0;
+    margin-top:10px;
+}
+
+/* Metadata table */
+.meta-table td {
+    padding:6px 10px;
+    font-size:14px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+/* Foto detail */
+#galeri img {
+    width:100%;
+    border-radius:12px;
+    margin-top:10px;
+}
+
+/* Detail responsive */
+@media(max-width:900px){
+    .detail-container {
+        flex-direction:column;
+    }
+    .detail-sidebar {
+        width:100%;
+        height:auto;
+        border-right:none;
+        border-bottom:1px solid #e5e7eb;
+    }
+    .detail-content {
+        padding:14px;
+    }
+    #map-detail {
+        height:300px;
+    }
+}
+
+/* ====================================
+   CREDIT PAGE
+   ==================================== */
+
+.credit-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.credit-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.credit-card h1,
+.credit-card h2 {
+    color: #0f8a3b;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.credit-desc {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #475569;
+}
+
+.credit-list {
+    margin-left: 18px;
+}
+
+.credit-list li {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #1e293b;
+}
+
+.instansi-logo-wrap {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.instansi-card {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    width: 180px;
+    text-align: center;
+}
+
+.instansi-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.instansi-card p {
+    font-size: 14px;
+    color: #1e293b;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background:#0f8a3b;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:16px;
+}
+/* ====================================
+   FIX: CREDIT PAGE CAN SCROLL
+   ==================================== */
+
+body.credit-page {
+    overflow-y: auto !important;   /* IZINKAN SCROLL */
+    height: auto !important;       /* BEBASKAN TINGGI HALAMAN */
+}
+
+.credit-container {
+    min-height: calc(100vh - 80px);  /* SUPAYA TIDAK KEPOTONG NAVBAR */
+    padding-bottom: 40px;            /* RUANG SCROLL LEBIH NYAMAN */
+}
+/* --- Cluster styling untuk legal & ilegal --- */
+
+.cluster-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
+.cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+.cluster-legal {
+  background: #16a34a; /* hijau legal */
+}
+
+.cluster-ilegal {
+  background: #dc2626; /* merah ilegal */
+}
+
+/* Link "Lihat Detail" di popup */
+.leaflet-popup-content .popup-detail-link {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  text-decoration: none;
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.leaflet-popup-content .popup-detail-link:hover {
+  background: #1d4ed8;
+}
+/* --- SIMBOLOGI DOT DI LAYER --- */
+
+.layer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.legend-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+/* Warna legal & ilegal sama dengan marker di map.js */
+/* ---------------------------
+   LEGEND / SIMBOLOGI LAYER
+---------------------------- */
+
+.layer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* bentuk lingkaran untuk titik (legal & ilegal) */
+.legend-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+/* kotak untuk polygon (kecamatan) */
+.legend-box {
+  width: 16px;
+  height: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  border: 2px solid;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+/* warna disamakan dengan marker di map.js */
+
+/* LEGAL: radius 8, fillColor: #16a34a, color: #065f46 */
+.legal-dot {
+  background-color: #16a34a;
+  border-color: #065f46;
+}
+
+/* ILEGAL: radius 9, fillColor: #dc2626, color: #7f1d1d */
+.ilegal-dot {
+  background-color: #dc2626;
+  border-color: #7f1d1d;
+}
+
+/* KECAMATAN: fillColor: #3b82f6, color: #1e3a8a */
+.kec-dot {
+  background-color: rgba(59, 130, 246, 0.4); /* 3b82f6 dengan sedikit transparansi */
+  border-color: #1e3a8a;
+}
+
+/* ====================================
+   FIX: DETAIL PAGE FULL HEIGHT LAYOUT
+   ==================================== */
+
+body.detail-page {
+  height: 100vh;
+  overflow: hidden;   /* tidak scroll seluruh halaman */
+}
+
+/* Container mengambil tinggi penuh */
+.detail-page .detail-container {
+  display: flex;
+  height: calc(100vh - 80px); /* 80px = tinggi navbar */
+  overflow: hidden;
+}
+
+/* Sidebar tetap full height dan bisa discroll */
+.detail-page .detail-sidebar {
+  width: 280px;
+  overflow-y: auto;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Konten kanan (map + info) selalu pas */
+.detail-page .detail-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Map pas memenuhi ruang tersisa */
+.detail-page #map-detail {
+  flex: 1;
+  width: 100%;
+  height: auto;          /* biar fleksibel */
+  min-height: 280px;     /* aman */
+  border-radius: 12px;
+  border:1px solid #e2e8f0;
+}
+
+/* Tab content scroll mandiri */
+.detail-page .tab-content {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+/* ====================================
+   MOBILE (SLIDE SIDEBAR)
+   ==================================== */
+@media (max-width: 900px) {
+
+  .detail-page .detail-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .detail-page .detail-sidebar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 260px;
+    height: calc(100vh - 80px);
+    background: #fff;
+    transform: translateX(-110%);
+    transition: 0.25s;
+    z-index: 1500;
+    overflow-y: auto;
+  }
+
+  .detail-page .detail-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .detail-page .detail-content {
+    height: calc(100vh - 80px);
+  }
+
+  .detail-page #map-detail {
+    height: calc(100vh - 80px);
+    min-height: unset;
+  }
+}
+/* =============================
+   ZOOM FOTO (FULLSCREEN MODAL)
+   ============================= */
+
+.zoom-modal {
+  display: none; 
+  position: fixed;
+  z-index: 5000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.8);
+}
+
+.zoom-modal-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.zoom-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.zoom-close:hover {
+  color: #ccc;
+}
+.popup-photo-wrap {
+  margin-top: 6px;
+}
+
+.popup-photo {
+  width: 100%;
+  max-height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+/* =============================
+   ZOOM FOTO POPUP PETA (INDEX)
+   ============================= */
+
+.zoom-modal-map {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.85);
+}
+
+.zoom-modal-content-map {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.zoom-close-map {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.zoom-close-map:hover {
+  color: #ccc;
+}

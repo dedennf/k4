@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Titik Sampah</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body class="detail-page">
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="img/logo-upi.png" class="logo-img">
+    <div class="brand">EcoTrack: Detail Titik Sampah</div>
+  </div>
+
+  <nav class="nav-right">
+    <a href="index.html">Kembali</a>
+  </nav>
+</header>
+
+<div class="detail-container">
+
+  <aside class="detail-sidebar">
+    <h2 id="judul-titik">Memuat...</h2>
+
+    <select id="pilih-titik"></select>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="deskripsi">Deskripsi</button>
+      <button class="tab-btn" data-tab="foto">Foto</button>
+      <button class="tab-btn" data-tab="meta">Metadata</button>
+      <button class="tab-btn" data-tab="unduh">Unduh</button>
+    </div>
+
+    <div id="tab-deskripsi" class="tab-content active">
+      <div id="deskripsi"></div>
+    </div>
+
+    <div id="tab-foto" class="tab-content">
+      <div id="galeri"></div>
+    </div>
+
+    <div id="tab-meta" class="tab-content">
+      <table id="meta-table" class="meta-table"></table>
+    </div>
+
+    <div id="tab-unduh" class="tab-content">
+  <p>Unduh data terkait titik yang sedang dipilih:</p>
+
+  <!-- Tombol untuk unduh data titik ini -->
+  <button id="download-point" class="download-btn">
+    Unduh Data Titik (.geojson)
+  </button>
+
+  <hr style="margin: 1rem 0; opacity: 0.4;">
+
+  <!-- Link ke pusat data (semua dataset) -->
+  <p>Pusat data (seluruh dataset):</p>
+  <a class="download-btn" href="data/" target="_blank">
+    Buka Pusat Data
+  </a>
+</div>
+
+  </aside>
+
+  <main class="detail-content">
+      <div id="map-detail"></div>
+  </main>
+
+</div>
+
+<!-- ZOOM FOTO -->
+<div id="zoomModal" class="zoom-modal">
+  <span class="zoom-close">&times;</span>
+  <img id="zoomImg" class="zoom-modal-content">
+</div>
+
+<script src="js/detail.js"></script>
+
+<script>
+document.getElementById("toggle-sidebar").onclick = () => {
+    document.querySelector(".detail-sidebar").classList.toggle("open");
+};
+</script>
+
+</body>
+</html>

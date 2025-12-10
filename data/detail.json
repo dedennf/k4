@@ -1,0 +1,535 @@
+{
+  "KC01": {
+    "foto": ["KC01.jpg"],
+    "metadata": {
+      "Nama_Titik": "KC01",
+      "FolderPath": "Document/2025-10-10_TIM 3",
+      "Kecamatan": "KIARACONDONG",
+      "Keterangan": "DEKAT SUNGAI"
+    }
+  },
+  "SS01": {
+    "foto": ["SS01.jpg"],
+    "metadata": {
+      "Nama_Titik": "SS01",
+      "FolderPath": "Document/20251015_TIM 1",
+      "Kecamatan": "SUKASARI",
+      "Keterangan": "DI PINGGIR JALAN RAYA"
+    }
+  },
+  "SS02": {
+    "foto": ["SS02.jpg"],
+    "metadata": {
+      "Nama_Titik": "SS02",
+      "FolderPath": "Document/20251015_TIM 1",
+      "Kecamatan": "SUKASARI",
+      "Keterangan": "DEKAT GANG MENUJU KOSAN"
+    }
+  },
+  "CP01": {
+    "foto": ["CP01.jpg"],
+    "metadata": {
+      "Nama_Titik": "CP01",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "CIDADAP",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "CP02": {
+    "foto": ["CP02.jpg"],
+    "metadata": {
+      "Nama_Titik": "CP02",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "CIDADAP",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "CP03": {
+    "foto": ["CP03.jpg"],
+    "metadata": {
+      "Nama_Titik": "CP03",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "CIDADAP",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "CP04": {
+    "foto": ["CP04.jpg"],
+    "metadata": {
+      "Nama_Titik": "CP04",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "CIDADAP",
+      "Keterangan": "PINGGIR JALAN SEBELUM MASUK KOMPLEK CITRAGREEN"
+    }
+  },
+  "CP05": {
+    "foto": ["CP05.jpg"],
+    "metadata": {
+      "Nama_Titik": "CP05",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "CIDADAP",
+      "Keterangan": "MASUK KOMPLEKS PERUMAHAN"
+    }
+  },
+  "SJ01": {
+    "foto": ["SJ01.jpg"],
+    "metadata": {
+      "Nama_Titik": "SJ01",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "SUKAJADI",
+      "Keterangan": "DI PINGGIR JALAN RAYA"
+    }
+  },
+  "SJ02": {
+    "foto": ["SJ02.jpg"],
+    "metadata": {
+      "Nama_Titik": "SJ02",
+      "FolderPath": "Document/20251026_TIM 1",
+      "Kecamatan": "SUKAJADI",
+      "Keterangan": "DI PINGGIR JALAN RAYA"
+    }
+  },
+  "SJ03": {
+    "foto": ["SJ03.jpg"],
+    "metadata": {
+      "Nama_Titik": "SJ03",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUKAJADI",
+      "Keterangan": "DI SAMPING JALAN RAYA"
+    }
+  },
+  "CK01": {
+    "foto": ["CK01.jpg"],
+    "metadata": {
+      "Nama_Titik": "CK01",
+      "FolderPath": "Document/20251029_TIM 1",
+      "Kecamatan": "CIBEUNYING KALER",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "CL01": {
+    "foto": ["CL01.jpg"],
+    "metadata": {
+      "Nama_Titik": "CL01",
+      "FolderPath": "Document/20251029_TIM 1",
+      "Kecamatan": "COBLONG",
+      "Keterangan": "MASUK GANG PERUMAHAN, DEKAT PARA PENJUAL"
+    }
+  },
+  "CL02": {
+    "foto": ["CL02.jpg"],
+    "metadata": {
+      "Nama_Titik": "CL02",
+      "FolderPath": "Document/20251029_TIM 1",
+      "Kecamatan": "COBLONG",
+      "Keterangan": "MASUK GANG PERUMAHAN WARGA"
+    }
+  },
+  "BW01": {
+    "foto": ["BW01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BW01",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "BANDUNG WETAN",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "BW02": {
+    "foto": ["BW02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BW02",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "BANDUNG WETAN",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "BW03": {
+    "foto": ["BW03.jpg"],
+    "metadata": {
+      "Nama_Titik": "BW03",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "BANDUNG WETAN",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "CD01": {
+    "foto": ["CD01.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD01",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "CD02": {
+    "foto": ["CD02.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD02",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "CD03": {
+    "foto": ["CD03.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD03",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SEBELUM GERBANG PERUMAHAN"
+    }
+  },
+  "CD04": {
+    "foto": ["CD04.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD04",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "CD05": {
+    "foto": ["CD05.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD05",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "DEKAT TOKO TERBENGKALAI, MASUK GANG"
+    }
+  },
+  "CD06": {
+    "foto": ["CD06.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD06",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SAMPING GANG"
+    }
+  },
+  "CD07": {
+    "foto": ["CD07.jpg"],
+    "metadata": {
+      "Nama_Titik": "CD07",
+      "FolderPath": "Document/SURVEY SAMPAH",
+      "Kecamatan": "CIBEUNYING KIDUL",
+      "Keterangan": "SAMPING JALAN"
+    }
+  },
+  "SB01": {
+    "foto": ["SB01.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB01",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN, DEKAT PERBATASAN KECAMATAN CICENDO"
+    }
+  },
+  "SB02": {
+    "foto": ["SB02.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB02",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "SB03": {
+    "foto": ["SB03.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB03",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "SB04": {
+    "foto": ["SB04.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB04",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "SB05": {
+    "foto": ["SB05.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB05",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+  "SB06": {
+    "foto": ["SB06.jpg"],
+    "metadata": {
+      "Nama_Titik": "SB06",
+      "FolderPath": "Document/TIM 1_3",
+      "Kecamatan": "SUMUR BANDUNG",
+      "Keterangan": "PINGGIR JALAN"
+    }
+  },
+
+  "AR01": {
+    "foto": ["AR01.jpg"],
+    "metadata": {
+      "Nama_Titik": "AR01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ANDIR",
+      "Keterangan": "DEKAT PEMBANGUNAN JALAN"
+    }
+  },
+  "AR02": {
+    "foto": ["AR02.jpg"],
+    "metadata": {
+      "Nama_Titik": "AR02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ANDIR",
+      "Keterangan": "DEKAT REL KERETA, BAWAH JEMBATAN LAYANG"
+    }
+  },
+  "AR03": {
+    "foto": ["AR03.jpg"],
+    "metadata": {
+      "Nama_Titik": "AR03",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ANDIR",
+      "Keterangan": "DI BAWAH JEMBATAN LAYANG"
+    }
+  },
+  "AR04": {
+    "foto": ["AR04.jpg"],
+    "metadata": {
+      "Nama_Titik": "AR04",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ANDIR",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "AY01": {
+    "foto": ["AY01.jpg"],
+    "metadata": {
+      "Nama_Titik": "AY01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ASTANA ANYAR",
+      "Keterangan": "DI PASAR"
+    }
+  },
+  "AY02": {
+    "foto": ["AY02.jpg"],
+    "metadata": {
+      "Nama_Titik": "AY02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ASTANA ANYAR",
+      "Keterangan": "DI DEKAT PASAR"
+    }
+  },
+  "AY03": {
+    "foto": ["AY03.jpg"],
+    "metadata": {
+      "Nama_Titik": "AY03",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "ASTANA ANYAR",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BD01": {
+    "foto": ["BD01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BD01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BOJONGLOA KIDUL",
+      "Keterangan": "DI DAERAH BAWAH TOL, BANYAK PEDAGANG"
+    }
+  },
+  "BD02": {
+    "foto": ["BD02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BD02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BOJONGLOA KIDUL",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BJ01": {
+    "foto": ["BJ01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BJ01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BOJONGLOA KALER",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BJ02": {
+    "foto": ["BJ02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BJ02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BOJONGLOA KALER",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BL01": {
+    "foto": ["BL01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BL01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BANDUNG KULON",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BL02": {
+    "foto": ["BL02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BL02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BANDUNG KULON",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BL03": {
+    "foto": ["BL03.jpg"],
+    "metadata": {
+      "Nama_Titik": "BL03",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BANDUNG KULON",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BL04": {
+    "foto": ["BL04.jpg"],
+    "metadata": {
+      "Nama_Titik": "BL04",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "BANDUNG KULON",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "CC01": {
+    "foto": ["CC01.jpg"],
+    "metadata": {
+      "Nama_Titik": "CC01",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "CICENDO",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "CC02": {
+    "foto": ["CC02.jpg"],
+    "metadata": {
+      "Nama_Titik": "CC02",
+      "FolderPath": "Document/TIM2",
+      "Kecamatan": "CICENDO",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "BT01": {
+    "foto": ["BT01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BT01",
+      "FolderPath": "Document/2025-10-10_TIM 3",
+      "Kecamatan": "BATUNUNGGAL",
+      "Keterangan": "DI SAMPING REL, DEKAT SALURAN AIR"
+    }
+  },
+  "BT02": {
+    "foto": ["BT02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BT02",
+      "FolderPath": "Document/Layer 5",
+      "Kecamatan": "BATUNUNGGAL",
+      "Keterangan": "DI SAMPING JALAN RAYA"
+    }
+  },
+  "RG01": {
+    "foto": ["RG01.jpg"],
+    "metadata": {
+      "Nama_Titik": "RG01",
+      "FolderPath": "Document/2025-10-10_TIM 3",
+      "Kecamatan": "REGOL",
+      "Keterangan": "DI SAMPING JALAN RAYA, SALURAN AIR"
+    }
+  },
+  "BB01": {
+    "foto": ["BB01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BB01",
+      "FolderPath": "Document/Layer 5",
+      "Kecamatan": "BUAH BATU",
+      "Keterangan": "DI SAMPING JALAN RAYA"
+    }
+  },
+  "BK01": {
+    "foto": ["BK01.jpg"],
+    "metadata": {
+      "Nama_Titik": "BK01",
+      "FolderPath": "Document/Layer 5",
+      "Kecamatan": "BANDUNG KIDUL",
+      "Keterangan": "DI KOLONG REL KERETA, LIMBAH BANGUNAN"
+    }
+  },
+  "BK02": {
+    "foto": ["BK02.jpg"],
+    "metadata": {
+      "Nama_Titik": "BK02",
+      "FolderPath": "Document/Layer 5",
+      "Kecamatan": "BANDUNG KIDUL",
+      "Keterangan": "DI SAMPING JALAN"
+    }
+  },
+   "RC01": {
+    "foto": [
+      "RC01.jpg"
+    ],
+    "metadata": {
+      "Nama_Titik": "RC01",
+      "FolderPath": "Document/Layer 5",
+      "Kecamatan": "RANCASARI",
+      "Keterangan": "TIDAK ADA KETERANGAN"
+    }
+  },
+  "CR01": {
+    "foto": [
+      "CR01.jpg"
+    ],
+    "metadata": {
+      "Nama_Titik": "CR01",
+      "FolderPath": "Document/Lapisan 2",
+      "Kecamatan": "CIBIRU",
+      "Keterangan": "DEKAT DENGAN JALAN"
+    }
+  },
+  "PY01": {
+    "foto": [
+      "PY01.jpg"
+    ],
+    "metadata": {
+      "Nama_Titik": "PY01",
+      "FolderPath": "Document/Minggu ke 2",
+      "Kecamatan": "PANYILEUKAN",
+      "Keterangan": "DEKAT DENGAN PABRIK"
+    }
+  },
+  "PY02": {
+    "foto": [
+      "PY02.jpg"
+    ],
+    "metadata": {
+      "Nama_Titik": "PY02",
+      "FolderPath": "Document/Minggu ke 2",
+      "Kecamatan": "PANYILEUKAN",
+      "Keterangan": "DI PINGGIR JALAN"
+    }
+  },
+  "PY03": {
+    "foto": [
+      "PY03.jpg"
+    ],
+    "metadata": {
+      "Nama_Titik": "PY03",
+      "FolderPath": "Document/Minggu ke 2",
+      "Kecamatan": "PANYILEUKAN",
+      "Keterangan": "DI PINGGIR JALAN"
+    }
+  }
+}

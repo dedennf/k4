@@ -1,0 +1,1088 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.65389770031868,
+          -6.927145700113897
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 1,
+        "Nama_Titik": "KC01",
+        "FolderPath": "Document/2025-10-10_TIM 3",
+        "Kecamatan": "KIARACONDONG",
+        "Keterangan": "DEKAT SUNGAI",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5912016671233,
+          -6.848450000167304
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 2,
+        "Nama_Titik": "SS01",
+        "FolderPath": "Document/20251015_TIM 1",
+        "Kecamatan": "SUKASARI",
+        "Keterangan": "DI PINGGIR JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59196166709734,
+          -6.8635800000169525
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 3,
+        "Nama_Titik": "SS02",
+        "FolderPath": "Document/20251015_TIM 1",
+        "Kecamatan": "SUKASARI",
+        "Keterangan": "DEKAT GANG MENUJU KOSAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60508666711604,
+          -6.861513332774052
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 4,
+        "Nama_Titik": "CP01",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "CIDADAP",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61197666738934,
+          -6.855929999769614
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 5,
+        "Nama_Titik": "CP02",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "CIDADAP",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60929333322082,
+          -6.856935000250019
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 6,
+        "Nama_Titik": "CP03",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "CIDADAP",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6171749997265,
+          -6.849899999585261
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 7,
+        "Nama_Titik": "CP04",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "CIDADAP",
+        "Keterangan": "PINGGIR JALAN SEBELUM MASUK KOMPLEK CITRAGREEN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60669333293106,
+          -6.867611667044741
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 8,
+        "Nama_Titik": "CP05",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "CIDADAP",
+        "Keterangan": "MASUK KOMPLEKS PERUMAHAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60160500027058,
+          -6.887466667152921
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 9,
+        "Nama_Titik": "SJ01",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "SUKAJADI",
+        "Keterangan": "DI PINGGIR JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59967666674481,
+          -6.894518333154508
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 10,
+        "Nama_Titik": "SJ02",
+        "FolderPath": "Document/20251026_TIM 1",
+        "Kecamatan": "SUKAJADI",
+        "Keterangan": "DI PINGGIR JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.62648833297027,
+          -6.875858333295412
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 11,
+        "Nama_Titik": "CK01",
+        "FolderPath": "Document/20251029_TIM 1",
+        "Kecamatan": "CIBEUNYING KALER",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61790166722824,
+          -6.877545000101634
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 12,
+        "Nama_Titik": "CL01",
+        "FolderPath": "Document/20251029_TIM 1",
+        "Kecamatan": "COBLONG",
+        "Keterangan": "MASUK GANG PERUMAHAN, DEKAT PARA PENJUAL",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61777000018543,
+          -6.877416666845647
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 13,
+        "Nama_Titik": "CL02",
+        "FolderPath": "Document/20251029_TIM 1",
+        "Kecamatan": "COBLONG",
+        "Keterangan": "MASUK GANG PERUMAHAN WARGA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61391914815022,
+          -6.906996458919423
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 14,
+        "Nama_Titik": "BW01",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "BANDUNG WETAN",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6087834868685,
+          -6.906610806243691
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 15,
+        "Nama_Titik": "BW02",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "BANDUNG WETAN",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.63133840914031,
+          -6.908612707010775
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 16,
+        "Nama_Titik": "BW03",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "BANDUNG WETAN",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64468871091532,
+          -6.892398577132553
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 17,
+        "Nama_Titik": "CD01",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64519539704997,
+          -6.891521327147473
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 18,
+        "Nama_Titik": "CD02",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6455949622378,
+          -6.892598065648144
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 19,
+        "Nama_Titik": "CD03",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SEBELUM GERBANG PERUMAHAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64885932499789,
+          -6.9016884578559825
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 20,
+        "Nama_Titik": "CD04",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64909648431535,
+          -6.904314772308851
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 21,
+        "Nama_Titik": "CD05",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "DEKAT TOKO TERBENGKALAI, MASUK GANG",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.63654963056103,
+          -6.912032682162533
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 22,
+        "Nama_Titik": "CD06",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SAMPING GANG",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.63488830844875,
+          -6.902072327176086
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 23,
+        "Nama_Titik": "CD07",
+        "FolderPath": "Document/SURVEY SAMPAH",
+        "Kecamatan": "CIBEUNYING KIDUL",
+        "Keterangan": "SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60448041973564,
+          -6.907295460117325
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 24,
+        "Nama_Titik": "SB01",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN, DEKAT PERBATASAN KECAMATAN CICENDO",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60660846930546,
+          -6.910279562651624
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 25,
+        "Nama_Titik": "SB02",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61154695962455,
+          -6.9179494900768645
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 26,
+        "Nama_Titik": "SB03",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61899752981219,
+          -6.9090911499365575
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 27,
+        "Nama_Titik": "SB04",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.62100323021497,
+          -6.902634239778308
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 28,
+        "Nama_Titik": "SB05",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.62053644070426,
+          -6.90214904744056
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 29,
+        "Nama_Titik": "SB06",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUMUR BANDUNG",
+        "Keterangan": "PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5989399996813,
+          -6.893487510440195
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 30,
+        "Nama_Titik": "SJ03",
+        "FolderPath": "Document/TIM 1_3",
+        "Kecamatan": "SUKAJADI",
+        "Keterangan": "DI SAMPING JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57856800001326,
+          -6.908822999981396
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 31,
+        "Nama_Titik": "AR01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ANDIR",
+        "Keterangan": "DEKAT PEMBANGUNAN JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.58890110690061,
+          -6.914022839582344
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 32,
+        "Nama_Titik": "AR02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ANDIR",
+        "Keterangan": "DEKAT REL KERETA, BAWAH JEMBATAN LAYANG",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.58790210399894,
+          -6.913569942798574
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 33,
+        "Nama_Titik": "AR03",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ANDIR",
+        "Keterangan": "DI BAWAH JEMBATAN LAYANG",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5863945821443,
+          -6.912925450848832
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 34,
+        "Nama_Titik": "AR04",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ANDIR",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57647705107513,
+          -6.914691925292061
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 35,
+        "Nama_Titik": "AY01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ASTANA ANYAR",
+        "Keterangan": "DI PASAR",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59884427674206,
+          -6.930042177204655
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 36,
+        "Nama_Titik": "AY02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ASTANA ANYAR",
+        "Keterangan": "DI DEKAT PASAR",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5973504749445,
+          -6.9295141834327865
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 37,
+        "Nama_Titik": "AY03",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "ASTANA ANYAR",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59280395503856,
+          -6.962214470121637
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 38,
+        "Nama_Titik": "BD01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BOJONGLOA KIDUL",
+        "Keterangan": "DI DAERAH BAWAH TOL, BANYAK PEDAGANG",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59559560355433,
+          -6.944350012343136
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 39,
+        "Nama_Titik": "BD02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BOJONGLOA KIDUL",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.58560423994379,
+          -6.924424124073994
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 40,
+        "Nama_Titik": "BJ01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BOJONGLOA KALER",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.58578494611845,
+          -6.922109753862003
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 41,
+        "Nama_Titik": "BJ02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BOJONGLOA KALER",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57200347518028,
+          -6.9276994513685395
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 42,
+        "Nama_Titik": "BL01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BANDUNG KULON",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59584928701503,
+          -6.942914482117601
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 43,
+        "Nama_Titik": "BL03",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BANDUNG KULON",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57321812381741,
+          -6.929944875055867
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 44,
+        "Nama_Titik": "BL04",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BANDUNG KULON",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57189420035712,
+          -6.9324421997476975
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 45,
+        "Nama_Titik": "BL02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "BANDUNG KULON",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59177712891142,
+          -6.907168314865771
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 46,
+        "Nama_Titik": "CC01",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "CICENDO",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59128988881736,
+          -6.907946729358002
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 47,
+        "Nama_Titik": "CC02",
+        "FolderPath": "Document/TIM2",
+        "Kecamatan": "CICENDO",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64434333257879,
+          -6.924003333087285
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 48,
+        "Nama_Titik": "BT01",
+        "FolderPath": "Document/2025-10-10_TIM 3",
+        "Kecamatan": "BATUNUNGGAL",
+        "Keterangan": "DI SAMPING REL, DEKAT SALURAN AIR",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6445393452147,
+          -6.944403675788976
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 50,
+        "Nama_Titik": "BB01",
+        "FolderPath": "Document/Layer 5",
+        "Kecamatan": "BUAH BATU",
+        "Keterangan": "DI SAMPING JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.63887269272067,
+          -6.965451709328875
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 51,
+        "Nama_Titik": "BK01",
+        "FolderPath": "Document/Layer 5",
+        "Kecamatan": "BANDUNG KIDUL",
+        "Keterangan": "DI KOLONG REL KERETA, LIMBAH BANGUNAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.63596013215442,
+          -6.961006507943921
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 52,
+        "Nama_Titik": "BK02",
+        "FolderPath": "Document/Layer 5",
+        "Kecamatan": "BANDUNG KIDUL",
+        "Keterangan": "DI SAMPING JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.64269155497135,
+          -6.93494918315821
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 53,
+        "Nama_Titik": "BT02",
+        "FolderPath": "Document/Layer 5",
+        "Kecamatan": "BATUNUNGGAL",
+        "Keterangan": "DI SAMPING JALAN RAYA",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.67367483982207,
+          -6.939295953745216
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 54,
+        "Nama_Titik": "RC01",
+        "FolderPath": "Document/Layer 5",
+        "Kecamatan": "RANCASARI",
+        "Keterangan": "",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.72000720027211,
+          -6.923030280123271
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 55,
+        "Nama_Titik": "CR01",
+        "FolderPath": "Document/Lapisan 2",
+        "Kecamatan": "CIBIRU",
+        "Keterangan": "DEKAT DENGAN JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.71349757005686,
+          -6.935139510280123
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 56,
+        "Nama_Titik": "PY03",
+        "FolderPath": "Document/Minggu ke 2",
+        "Kecamatan": "PANYILEUKAN",
+        "Keterangan": "DI PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.69428688023538,
+          -6.931443419877894
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 57,
+        "Nama_Titik": "PY01",
+        "FolderPath": "Document/Minggu ke 2",
+        "Kecamatan": "PANYILEUKAN",
+        "Keterangan": "DEKAT DENGAN PABRIK",
+        "ELEVATION": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.70587321038039,
+          -6.922196540238076
+        ]
+      },
+      "properties": {
+        "LAYER": "Unknown Point Feature",
+        "OBJECTID_1": 58,
+        "Nama_Titik": "PY02",
+        "FolderPath": "Document/Minggu ke 2",
+        "Kecamatan": "PANYILEUKAN",
+        "Keterangan": "DI PINGGIR JALAN",
+        "ELEVATION": 0
+      }
+    }
+  ]
+}
